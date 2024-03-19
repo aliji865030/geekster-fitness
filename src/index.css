@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
 }
 
 code {
@@ -20,4 +21,9 @@ code {
   width: 450px;
   height: 450px;
   border-radius: 20px;
+}
+
+.nav-image img:hover{
+  transform: scale(1.05);
+  transition: all .3s ease-in-out;
 }

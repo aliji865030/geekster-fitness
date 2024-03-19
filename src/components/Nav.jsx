@@ -4,10 +4,10 @@ const Nav = () => {
   return (
     <div>
        <div >
-                <h2 className='text-4xl font-semibold py-5'>
+                <h2 className='text-6xl font-semibold py-20'>
                 The body achieves what the mind believes
                 </h2>
-                <p className=' text-gray-500'>
+                <p className=' text-gray-500 text-lg '>
                 The hard days are the best because that’s when champions are made, so if you push through, you can push through anything.
                 </p>
             </div>
